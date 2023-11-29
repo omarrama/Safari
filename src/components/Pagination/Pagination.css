@@ -1,0 +1,35 @@
+.pagination-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 10px;
+  padding: 20px 30px;
+}
+
+.single-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 18px;
+  font-size: 20px;
+  font-weight: 400;
+  cursor: pointer;
+  border-radius: 7px;
+  border: 2px dashed var(--primary-brand-color);
+  color: var(--primary-text-color);
+}
+
+@media (max-width: 600px) {
+  .single-page {
+    padding: 6px 12px;
+    font-size: 15px;
+    border-width: 1px;
+  }
+}
+
+@media (max-width: 400px) {
+  .single-page {
+    padding: 4px 8px;
+    font-size: 12px;
+  }
+}

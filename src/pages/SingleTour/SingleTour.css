@@ -1,0 +1,149 @@
+.tour {
+  padding: 30px;
+}
+
+.tour-steps {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.tour-steps i {
+  font-size: 12px;
+  padding: 0 5px;
+}
+
+.tour-steps a {
+  text-decoration: underline;
+}
+
+.tour-category {
+  background-color: rgb(2, 2, 50);
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+  padding: 6px 12px;
+  margin: 12px 0;
+  border-radius: 18px;
+  width: 15%;
+  text-align: center;
+}
+
+.tour-title {
+  color: rgb(2, 2, 50);
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+.tour-info {
+  display: flex;
+  column-gap: 12px;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.tour-provider {
+  font-size: 18px;
+  color: rgb(2, 2, 50);
+  font-weight: 500;
+}
+
+.text-provider-name {
+  color: royalblue;
+}
+
+/* SECOND SECTION */
+
+.tour-wrapper {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  column-gap: 32px;
+}
+
+.tour-img {
+  border-radius: 18px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+/* TOUR DETAILS */
+
+.tour-details {
+  box-shadow: 0 0 1px 1px grey;
+}
+
+.tour-details-discount {
+  background-color: black;
+  color: white;
+  font-size: 24px;
+  padding: 10px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.tour-details-body {
+  padding: 15px;
+}
+
+.tour-details-booked {
+  background-color: #d1f6e2;
+  color: #007850;
+  text-align: center;
+  padding: 4px 8px;
+  font-weight: 500;
+  border-radius: 7px;
+}
+
+.tour-details-price {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 18px 0;
+  column-gap: 15px;
+}
+
+.tour-details-price b {
+  color: red;
+  font-size: 18px;
+}
+
+.tour-details-price span {
+  font-weight: 400;
+  font-size: 16px;
+  color: gray;
+}
+
+.tour-details-btn {
+  cursor: pointer;
+  border: none;
+  background-color: black;
+  color: white;
+  padding: 6px 30px;
+  text-transform: capitalize;
+  font-size: 16px;
+  border-radius: 18px;
+  margin-left: 20px;
+  transition: background-color 300ms ease-in-out;
+}
+
+.tour-details-btn:hover {
+  background-color: rgb(39, 38, 38);
+}
+
+.tour-details-reserve {
+  display: flex;
+  align-items: flex-start;
+  column-gap: 10px;
+  font-size: 18px;
+  color: black;
+}
+
+.tour-details-reserve span {
+  line-height: 1.2;
+  font-weight: 600;
+}
+
+.tour-details-reserve i {
+  margin-top: 1px;
+  color: #007850;
+}

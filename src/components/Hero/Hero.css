@@ -1,0 +1,144 @@
+.hero {
+  width: 100%;
+  height: calc(100vh - 100px);
+  background: url(../../images/hero-cover.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 25px;
+}
+
+.search-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.hero-search {
+  position: relative;
+  width: 80%;
+  height: 60px;
+  background-color: #fff;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 7px 0px 20px;
+}
+
+.input-wrapper {
+  height: 100%;
+  flex: 1;
+}
+
+.hero-search-icon {
+  font-size: 21px;
+}
+
+.hero-search-input {
+  height: 100%;
+  width: 90%;
+  padding-left: 15px;
+  border-radius: 30px;
+  border: none;
+  outline: none;
+  font-size: 21px;
+}
+
+::-webkit-search-cancel-button {
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.hero-search-btn {
+  background-color: var(--primary-brand-color);
+  color: #fff;
+  border: none;
+  border-radius: 25px;
+  font-size: 21px;
+  padding: 12px 21px;
+  transition: background-color 300ms ease-in-out;
+}
+
+.hero-search-btn:hover {
+  cursor: pointer;
+  background-color: rgb(240, 94, 46);
+}
+
+.hero-title {
+  color: #fff;
+  margin-top: 180px;
+}
+
+.hero-title h1 {
+  font-size: 28px;
+  font-style: italic;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.9);
+}
+
+.hero-title h3 {
+  font-size: 70px;
+  text-shadow: 0 -1px 4px #fff, 0 -2px 50px #ff0, 0 -10px 20px #ff8000,
+    0 -18px 40px;
+}
+
+.hero-title h3 .dubai {
+  font-style: italic;
+}
+
+/* Media Queries */
+
+@media (max-width: 1024px) {
+  .hero {
+    padding: 15px;
+  }
+}
+
+@media (max-width: 700px) {
+  .hero {
+    background-position: center;
+  }
+
+  .hero-search {
+    height: 50px;
+    width: 90%;
+    padding: 0 3px 0px 15px;
+  }
+
+  .hero-search-input {
+    font-size: 15px;
+  }
+
+  .hero-search-btn {
+    font-size: 15px;
+    padding: 12px 15px;
+  }
+
+  .hero-title h1 {
+    font-size: 20px;
+  }
+
+  .hero-title h3 {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 430px) {
+  .hero-search {
+    width: 100%;
+    padding: 0 3px;
+  }
+
+  .hero-search-icon {
+    display: none;
+  }
+
+  .hero-search-input::placeholder,
+  .hero-search-btn {
+    font-size: 15px;
+    letter-spacing: -1px;
+  }
+
+  ::-webkit-search-cancel-button {
+    margin-left: 0;
+  }
+}

@@ -1,0 +1,40 @@
+.about {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: calc(100vh - 100px);
+  padding: 40px;
+  margin-top: 60px;
+}
+
+.about h1 {
+  color: var(--primary-text-color);
+  margin-bottom: 18px;
+  border-bottom: 2px solid gray;
+  padding: 6px;
+  width: max-content;
+  font-size: 38px;
+}
+
+.about p {
+  text-align: center;
+  font-size: 24px;
+  color: rgb(67, 66, 66);
+  margin: 10px 0;
+  font-weight: 500;
+}
+
+.about .about-description {
+  margin: 32px 0;
+}
+
+@media (max-width: 450px) {
+  .about h1 {
+    font-size: 28px;
+  }
+
+  .about p {
+    font-size: 18px;
+    text-wrap: pretty;
+  }
+}

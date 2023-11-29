@@ -1,0 +1,82 @@
+.footer {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 30px;
+  padding-bottom: 15px;
+  background-color: #161920;
+  background-color: #000;
+}
+
+.footer-section {
+  color: #fff;
+  padding: 15px;
+}
+
+.footer-section-title {
+  margin-bottom: 12px;
+  font-size: 22px;
+}
+
+.footer-list {
+  color: snow;
+}
+
+.footer-link {
+  cursor: pointer;
+  font-weight: 200;
+  font-size: 18px;
+  padding: 8px 0;
+  transition: color 150ms ease-in-out;
+}
+
+.footer-link:hover {
+  color: var(--primary-brand-color);
+}
+
+.footer-icons {
+  margin: 16px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-icons i {
+  font-size: 32px;
+  cursor: pointer;
+  color: transparent;
+  background-clip: text !important;
+  -webkit-background-clip: text !important;
+  transition: transform 200ms ease-in-out;
+}
+
+.footer-icons i:hover {
+  transform: translateY(-3px);
+}
+
+.footer-icons .bi-facebook {
+  background: linear-gradient(#17a9fd, #0149a1);
+}
+
+.footer-icons .bi-instagram {
+  background: linear-gradient(135deg, #833ab4, #fd1d1d, #fcb045);
+}
+
+.footer-icons .bi-twitter {
+  background: linear-gradient(45deg, #00acee, #36d8ff);
+}
+
+.footer-icons .bi-linkedin {
+  background: linear-gradient(#0077b5, #0080ff, #0077b5);
+}
+
+.footer-copyright {
+  color: darkgray;
+  font-size: 15px;
+  text-align: center;
+}
+
+@media (max-width: 350px) {
+  .footer {
+    flex-direction: column;
+  }
+}

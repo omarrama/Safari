@@ -1,0 +1,46 @@
+.sorting-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 45px 5px 45px;
+}
+
+.available-tours {
+  display: flex;
+  column-gap: 8px;
+  font-size: 18px;
+  color: var(--primary-text-color);
+}
+
+.available-tours span {
+  font-weight: 300;
+}
+
+.available-tours i {
+  color: var(--primary-brand-color);
+}
+
+.sorting-select-box {
+  cursor: pointer;
+  outline-color: var(--primary-brand-color);
+  border: 1px solid grey;
+  font-size: 18px;
+  font-weight: 300;
+  border-radius: 7px;
+  padding: 10px 15px;
+}
+
+@media (max-width: 500px) {
+  .sorting-container {
+    flex-direction: column;
+    row-gap: 25px;
+  }
+
+  .available-tours {
+    column-gap: 15px;
+  }
+
+  .sorting-select-box {
+    padding: 5px 15px;
+  }
+}
