@@ -9,7 +9,7 @@ const Tours = ({ tours }) => {
         return (
           <div className="tour-card" key={tour.id}>
             <img
-              src={tour.image}
+              src={process.env.PUBLIC_URL + tour.image}
               alt={tour.title}
               title={tour.title}
               className="tour-card-img"

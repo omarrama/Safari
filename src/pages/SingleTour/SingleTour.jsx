@@ -25,7 +25,7 @@ const SingleTour = () => {
         </div>
       </div>
       <div className="tour-wrapper">
-        <img src={tour.image} alt={tour.title} className="tour-img" />
+        <img src={process.env.PUBLIC_URL + tour.image} alt={tour.title} className="tour-img" />
         <div className="tour-details">
           <div className="tour-details-discount">Save up to 35%!</div>
           <div className="tour-details-body">
