@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Safari/static/css/main.dd73f681.css",
-    "main.js": "/Safari/static/js/main.26a29604.js",
+    "main.css": "/Safari/static/css/main.4384a221.css",
+    "main.js": "/Safari/static/js/main.c661eff0.js",
     "static/media/hero-cover.jpg": "/Safari/static/media/hero-cover.d41e8d5de03a0928cc48.jpg",
     "static/media/banner.jpg": "/Safari/static/media/banner.4bbef85d07f3eef5bbb8.jpg",
     "static/media/logo.png": "/Safari/static/media/logo.34b684d35b495fba3462.png",
     "static/media/newsletter.jpg": "/Safari/static/media/newsletter.f96271bc8c60ecabb101.jpg",
     "index.html": "/Safari/index.html",
-    "main.dd73f681.css.map": "/Safari/static/css/main.dd73f681.css.map",
-    "main.26a29604.js.map": "/Safari/static/js/main.26a29604.js.map"
+    "main.4384a221.css.map": "/Safari/static/css/main.4384a221.css.map",
+    "main.c661eff0.js.map": "/Safari/static/js/main.c661eff0.js.map"
   },
   "entrypoints": [
-    "static/css/main.dd73f681.css",
-    "static/js/main.26a29604.js"
+    "static/css/main.4384a221.css",
+    "static/js/main.c661eff0.js"
   ]
 }
